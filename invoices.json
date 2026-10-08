@@ -1,0 +1,676 @@
+﻿[
+    {
+        "_id":  "6927ea81d43b5874630275c1",
+        "invoiceNumber":  "INV-1764223617660",
+        "patientId":  "69169cf5f58f60ac42854109",
+        "patientNumber":  "P003",
+        "patientName":  "Noel Pahit",
+        "items":  [
+                      {
+                          "description":  "General Consultation",
+                          "category":  "Consultation Services",
+                          "quantity":  1,
+                          "rate":  1500,
+                          "amount":  1500,
+                          "_id":  "6927ea81d43b5874630275c2"
+                      }
+                  ],
+        "subtotal":  1500,
+        "discount":  300,
+        "discountType":  "senior",
+        "discountPercentage":  0,
+        "tax":  0,
+        "total":  1200,
+        "status":  "paid",
+        "issuedDate":  "2025-11-27T06:06:57.660Z",
+        "dueDate":  "2025-11-27T06:06:57.660Z",
+        "generatedBy":  "Billing Department",
+        "generatedAt":  "2025-11-27T06:06:57.660Z",
+        "notes":  "",
+        "__v":  0
+    },
+    {
+        "_id":  "6916ba6ff871c8c6a3b67783",
+        "invoiceNumber":  "INV-1763097199612",
+        "patientId":  "690b0bbfe513724d5bca15b6",
+        "patientName":  "Anna Reyes",
+        "items":  [
+                      {
+                          "description":  "Sample Medicine - Demo",
+                          "category":  "Pharmacy",
+                          "quantity":  1,
+                          "rate":  200,
+                          "amount":  200,
+                          "_id":  "6916ba6ff871c8c6a3b67784"
+                      },
+                      {
+                          "description":  "Physical Therapy",
+                          "category":  "Therapeutic Services",
+                          "quantity":  5,
+                          "rate":  1000,
+                          "amount":  5000,
+                          "_id":  "6916ba6ff871c8c6a3b67785"
+                      },
+                      {
+                          "description":  "X-Ray",
+                          "category":  "Diagnostic Services",
+                          "quantity":  2,
+                          "rate":  1500,
+                          "amount":  3000,
+                          "_id":  "6916ba6ff871c8c6a3b67786"
+                      }
+                  ],
+        "subtotal":  8200,
+        "discount":  0,
+        "discountType":  "none",
+        "discountPercentage":  0,
+        "tax":  0,
+        "total":  8224,
+        "status":  "draft",
+        "issuedDate":  "2025-11-14T05:13:19.612Z",
+        "dueDate":  "2025-11-14T05:13:19.612Z",
+        "generatedBy":  "Billing Department",
+        "generatedAt":  "2025-11-14T05:13:19.612Z",
+        "notes":  "",
+        "__v":  0
+    },
+    {
+        "_id":  "6916b8a3f871c8c6a3b6767c",
+        "invoiceNumber":  "INV-1763096739243",
+        "patientId":  "690b0bbfe513724d5bca15b7",
+        "patientName":  "Maria Santos",
+        "items":  [
+                      {
+                          "description":  "Sample Medicine - Demo",
+                          "category":  "Pharmacy",
+                          "quantity":  1,
+                          "rate":  200,
+                          "amount":  200,
+                          "_id":  "6916b8a3f871c8c6a3b6767d"
+                      },
+                      {
+                          "description":  "Major Surgery",
+                          "category":  "Surgical Services",
+                          "quantity":  1,
+                          "rate":  50000,
+                          "amount":  50000,
+                          "_id":  "6916b8a3f871c8c6a3b6767e"
+                      },
+                      {
+                          "description":  "Private Room",
+                          "category":  "Room \u0026 Board",
+                          "quantity":  4,
+                          "rate":  3500,
+                          "amount":  14000,
+                          "_id":  "6916b8a3f871c8c6a3b6767f"
+                      },
+                      {
+                          "description":  "Complete Blood Count",
+                          "category":  "Laboratory Services",
+                          "quantity":  3,
+                          "rate":  500,
+                          "amount":  1500,
+                          "_id":  "6916b8a3f871c8c6a3b67680"
+                      },
+                      {
+                          "description":  "Ultrasound",
+                          "category":  "Diagnostic Services",
+                          "quantity":  1,
+                          "rate":  2500,
+                          "amount":  2500,
+                          "_id":  "6916b8a3f871c8c6a3b67681"
+                      },
+                      {
+                          "description":  "Pharmacy - Medications",
+                          "category":  "Pharmacy",
+                          "quantity":  1,
+                          "rate":  0,
+                          "amount":  0,
+                          "_id":  "6916b8a3f871c8c6a3b67682"
+                      }
+                  ],
+        "subtotal":  68200,
+        "discount":  0,
+        "discountType":  "none",
+        "discountPercentage":  0,
+        "tax":  0,
+        "total":  68224,
+        "status":  "draft",
+        "issuedDate":  "2025-11-14T05:05:39.243Z",
+        "dueDate":  "2025-11-14T05:05:39.243Z",
+        "generatedBy":  "Billing Department",
+        "generatedAt":  "2025-11-14T05:05:39.243Z",
+        "notes":  "",
+        "__v":  0
+    },
+    {
+        "_id":  "6916a7a0b7bf1969b21a6776",
+        "invoiceNumber":  "INV-1763092384067",
+        "patientId":  "690b0bbfe513724d5bca15b5",
+        "patientName":  "Juan Santos",
+        "items":  [
+                      {
+                          "description":  "Sample Medicine - Demo",
+                          "category":  "Pharmacy",
+                          "quantity":  1,
+                          "rate":  200,
+                          "amount":  200,
+                          "_id":  "6916a7a0b7bf1969b21a6777"
+                      },
+                      {
+                          "description":  "Emergency Consultation",
+                          "category":  "Consultation Services",
+                          "quantity":  1,
+                          "rate":  3000,
+                          "amount":  3000,
+                          "_id":  "6916a7a0b7bf1969b21a6778"
+                      },
+                      {
+                          "description":  "ECG",
+                          "category":  "Diagnostic Services",
+                          "quantity":  1,
+                          "rate":  800,
+                          "amount":  800,
+                          "_id":  "6916a7a0b7bf1969b21a6779"
+                      },
+                      {
+                          "description":  "Blood Chemistry",
+                          "category":  "Laboratory Services",
+                          "quantity":  1,
+                          "rate":  1200,
+                          "amount":  1200,
+                          "_id":  "6916a7a0b7bf1969b21a677a"
+                      },
+                      {
+                          "description":  "ICU",
+                          "category":  "Room \u0026 Board",
+                          "quantity":  1,
+                          "rate":  8000,
+                          "amount":  8000,
+                          "_id":  "6916a7a0b7bf1969b21a677b"
+                      }
+                  ],
+        "subtotal":  13200,
+        "discount":  2640,
+        "discountType":  "pwd",
+        "discountPercentage":  0,
+        "tax":  0,
+        "total":  10579.2,
+        "status":  "draft",
+        "issuedDate":  "2025-11-14T03:53:04.067Z",
+        "dueDate":  "2025-11-14T03:53:04.067Z",
+        "generatedBy":  "Billing Department",
+        "generatedAt":  "2025-11-14T03:53:04.067Z",
+        "notes":  "",
+        "__v":  0
+    },
+    {
+        "_id":  "69169d4cf58f60ac42854132",
+        "invoiceNumber":  "INV-1763089740848",
+        "patientId":  "69169cf5f58f60ac42854109",
+        "patientName":  "Noel Pahit",
+        "items":  [
+                      {
+                          "description":  "General Consultation",
+                          "category":  "Consultation Services",
+                          "quantity":  1,
+                          "rate":  1500,
+                          "amount":  1500,
+                          "_id":  "69169d4cf58f60ac42854133"
+                      }
+                  ],
+        "subtotal":  1500,
+        "discount":  300,
+        "discountType":  "senior",
+        "discountPercentage":  0,
+        "tax":  0,
+        "total":  1200,
+        "status":  "draft",
+        "issuedDate":  "2025-11-14T03:09:00.848Z",
+        "dueDate":  "2025-11-14T03:09:00.848Z",
+        "generatedBy":  "Billing Department",
+        "generatedAt":  "2025-11-14T03:09:00.848Z",
+        "notes":  "",
+        "__v":  0
+    },
+    {
+        "_id":  "690b447fcf6f2a21f880cfef",
+        "invoiceNumber":  "INV-1762346111201",
+        "patientId":  "690b0bbfe513724d5bca15b5",
+        "patientName":  "Juan Santos",
+        "items":  [
+                      {
+                          "description":  "Emergency Consultation",
+                          "category":  "Consultation Services",
+                          "quantity":  1,
+                          "rate":  3000,
+                          "amount":  3000,
+                          "_id":  "690b447fcf6f2a21f880cff0"
+                      },
+                      {
+                          "description":  "ECG",
+                          "category":  "Diagnostic Services",
+                          "quantity":  1,
+                          "rate":  800,
+                          "amount":  800,
+                          "_id":  "690b447fcf6f2a21f880cff1"
+                      },
+                      {
+                          "description":  "Blood Chemistry",
+                          "category":  "Laboratory Services",
+                          "quantity":  1,
+                          "rate":  1200,
+                          "amount":  1200,
+                          "_id":  "690b447fcf6f2a21f880cff2"
+                      },
+                      {
+                          "description":  "ICU",
+                          "category":  "Room \u0026 Board",
+                          "quantity":  1,
+                          "rate":  8000,
+                          "amount":  8000,
+                          "_id":  "690b447fcf6f2a21f880cff3"
+                      }
+                  ],
+        "subtotal":  13000,
+        "discount":  0,
+        "discountType":  "none",
+        "discountPercentage":  0,
+        "tax":  0,
+        "total":  13000,
+        "status":  "draft",
+        "issuedDate":  "2025-11-05T12:35:11.201Z",
+        "dueDate":  "2025-11-05T12:35:11.201Z",
+        "generatedBy":  "Billing Department",
+        "generatedAt":  "2025-11-05T12:35:11.202Z",
+        "notes":  "",
+        "__v":  0
+    },
+    {
+        "_id":  "690b424acf6f2a21f880cf60",
+        "invoiceNumber":  "INV-1762345546726",
+        "patientId":  "690b0bbfe513724d5bca15b5",
+        "patientName":  "Juan Santos",
+        "items":  [
+                      {
+                          "description":  "Sample Medicine - Demo",
+                          "category":  "Pharmacy",
+                          "quantity":  1,
+                          "rate":  200,
+                          "amount":  200,
+                          "_id":  "690b424acf6f2a21f880cf61"
+                      },
+                      {
+                          "description":  "Emergency Consultation",
+                          "category":  "Consultation Services",
+                          "quantity":  1,
+                          "rate":  3000,
+                          "amount":  3000,
+                          "_id":  "690b424acf6f2a21f880cf62"
+                      },
+                      {
+                          "description":  "ECG",
+                          "category":  "Diagnostic Services",
+                          "quantity":  1,
+                          "rate":  800,
+                          "amount":  800,
+                          "_id":  "690b424acf6f2a21f880cf63"
+                      },
+                      {
+                          "description":  "Blood Chemistry",
+                          "category":  "Laboratory Services",
+                          "quantity":  1,
+                          "rate":  1200,
+                          "amount":  1200,
+                          "_id":  "690b424acf6f2a21f880cf64"
+                      },
+                      {
+                          "description":  "ICU",
+                          "category":  "Room \u0026 Board",
+                          "quantity":  1,
+                          "rate":  8000,
+                          "amount":  8000,
+                          "_id":  "690b424acf6f2a21f880cf65"
+                      }
+                  ],
+        "subtotal":  13200,
+        "discount":  0,
+        "discountType":  "none",
+        "discountPercentage":  0,
+        "tax":  0,
+        "total":  13224,
+        "status":  "paid",
+        "issuedDate":  "2025-11-05T12:25:46.726Z",
+        "dueDate":  "2025-11-05T12:25:46.726Z",
+        "generatedBy":  "Billing Department",
+        "generatedAt":  "2025-11-05T12:25:46.726Z",
+        "notes":  "",
+        "__v":  0
+    },
+    {
+        "_id":  "690b4105cf6f2a21f880cebc",
+        "invoiceNumber":  "INV-1762345221836",
+        "patientId":  "690b0bbfe513724d5bca15b7",
+        "patientName":  "Maria Santos",
+        "items":  [
+                      {
+                          "description":  "Sample Medicine - Demo",
+                          "category":  "Pharmacy",
+                          "quantity":  1,
+                          "rate":  200,
+                          "amount":  200,
+                          "_id":  "690b4105cf6f2a21f880cebd"
+                      },
+                      {
+                          "description":  "Major Surgery",
+                          "category":  "Surgical Services",
+                          "quantity":  1,
+                          "rate":  50000,
+                          "amount":  50000,
+                          "_id":  "690b4105cf6f2a21f880cebe"
+                      },
+                      {
+                          "description":  "Private Room",
+                          "category":  "Room \u0026 Board",
+                          "quantity":  4,
+                          "rate":  3500,
+                          "amount":  14000,
+                          "_id":  "690b4105cf6f2a21f880cebf"
+                      },
+                      {
+                          "description":  "Complete Blood Count",
+                          "category":  "Laboratory Services",
+                          "quantity":  3,
+                          "rate":  500,
+                          "amount":  1500,
+                          "_id":  "690b4105cf6f2a21f880cec0"
+                      },
+                      {
+                          "description":  "Ultrasound",
+                          "category":  "Diagnostic Services",
+                          "quantity":  1,
+                          "rate":  2500,
+                          "amount":  2500,
+                          "_id":  "690b4105cf6f2a21f880cec1"
+                      },
+                      {
+                          "description":  "Pharmacy - Medications",
+                          "category":  "Pharmacy",
+                          "quantity":  1,
+                          "rate":  0,
+                          "amount":  0,
+                          "_id":  "690b4105cf6f2a21f880cec2"
+                      }
+                  ],
+        "subtotal":  68200,
+        "discount":  0,
+        "discountType":  "none",
+        "discountPercentage":  0,
+        "tax":  0,
+        "total":  68224,
+        "status":  "draft",
+        "issuedDate":  "2025-11-05T12:20:21.836Z",
+        "dueDate":  "2025-11-05T12:20:21.836Z",
+        "generatedBy":  "Billing Department",
+        "generatedAt":  "2025-11-05T12:20:21.836Z",
+        "notes":  "",
+        "__v":  0
+    },
+    {
+        "_id":  "690b40becf6f2a21f880cdf2",
+        "invoiceNumber":  "INV-1762345150924",
+        "patientId":  "690b0bbfe513724d5bca15b5",
+        "patientName":  "Juan Santos",
+        "items":  [
+                      {
+                          "description":  "Sample Medicine - Demo",
+                          "category":  "Pharmacy",
+                          "quantity":  1,
+                          "rate":  200,
+                          "amount":  200,
+                          "_id":  "690b40becf6f2a21f880cdf3"
+                      },
+                      {
+                          "description":  "Emergency Consultation",
+                          "category":  "Consultation Services",
+                          "quantity":  1,
+                          "rate":  3000,
+                          "amount":  3000,
+                          "_id":  "690b40becf6f2a21f880cdf4"
+                      },
+                      {
+                          "description":  "ECG",
+                          "category":  "Diagnostic Services",
+                          "quantity":  1,
+                          "rate":  800,
+                          "amount":  800,
+                          "_id":  "690b40becf6f2a21f880cdf5"
+                      },
+                      {
+                          "description":  "Blood Chemistry",
+                          "category":  "Laboratory Services",
+                          "quantity":  1,
+                          "rate":  1200,
+                          "amount":  1200,
+                          "_id":  "690b40becf6f2a21f880cdf6"
+                      },
+                      {
+                          "description":  "ICU",
+                          "category":  "Room \u0026 Board",
+                          "quantity":  1,
+                          "rate":  8000,
+                          "amount":  8000,
+                          "_id":  "690b40becf6f2a21f880cdf7"
+                      }
+                  ],
+        "subtotal":  13200,
+        "discount":  0,
+        "discountType":  "none",
+        "discountPercentage":  0,
+        "tax":  0,
+        "total":  13224,
+        "status":  "paid",
+        "issuedDate":  "2025-11-05T12:19:10.924Z",
+        "dueDate":  "2025-11-05T12:19:10.924Z",
+        "generatedBy":  "Billing Department",
+        "generatedAt":  "2025-11-05T12:19:10.924Z",
+        "notes":  "",
+        "__v":  0
+    },
+    {
+        "_id":  "690b406fcf6f2a21f880cd60",
+        "invoiceNumber":  "INV-1762345071347",
+        "patientId":  "690b0bbfe513724d5bca15b5",
+        "patientName":  "Juan Santos",
+        "items":  [
+                      {
+                          "description":  "Sample Medicine - Demo",
+                          "category":  "Pharmacy",
+                          "quantity":  1,
+                          "rate":  200,
+                          "amount":  200,
+                          "_id":  "690b406fcf6f2a21f880cd61"
+                      },
+                      {
+                          "description":  "Emergency Consultation",
+                          "category":  "Consultation Services",
+                          "quantity":  1,
+                          "rate":  3000,
+                          "amount":  3000,
+                          "_id":  "690b406fcf6f2a21f880cd62"
+                      },
+                      {
+                          "description":  "ECG",
+                          "category":  "Diagnostic Services",
+                          "quantity":  1,
+                          "rate":  800,
+                          "amount":  800,
+                          "_id":  "690b406fcf6f2a21f880cd63"
+                      },
+                      {
+                          "description":  "Blood Chemistry",
+                          "category":  "Laboratory Services",
+                          "quantity":  1,
+                          "rate":  1200,
+                          "amount":  1200,
+                          "_id":  "690b406fcf6f2a21f880cd64"
+                      },
+                      {
+                          "description":  "ICU",
+                          "category":  "Room \u0026 Board",
+                          "quantity":  1,
+                          "rate":  8000,
+                          "amount":  8000,
+                          "_id":  "690b406fcf6f2a21f880cd65"
+                      }
+                  ],
+        "subtotal":  13200,
+        "discount":  0,
+        "discountType":  "none",
+        "discountPercentage":  0,
+        "tax":  0,
+        "total":  13224,
+        "status":  "draft",
+        "issuedDate":  "2025-11-05T12:17:51.347Z",
+        "dueDate":  "2025-11-05T12:17:51.347Z",
+        "generatedBy":  "Billing Department",
+        "generatedAt":  "2025-11-05T12:17:51.347Z",
+        "notes":  "",
+        "__v":  0
+    },
+    {
+        "_id":  "690b176e2483cc52422a1e49",
+        "invoiceNumber":  "INV-1762334574937",
+        "patientId":  "690b0bbfe513724d5bca15b5",
+        "patientName":  "Juan Santos",
+        "items":  [
+                      {
+                          "description":  "Sample Medicine - Demo",
+                          "category":  "Pharmacy",
+                          "quantity":  1,
+                          "rate":  200,
+                          "amount":  200,
+                          "_id":  "690b176e2483cc52422a1e4a"
+                      },
+                      {
+                          "description":  "Emergency Consultation",
+                          "category":  "Consultation Services",
+                          "quantity":  1,
+                          "rate":  3000,
+                          "amount":  3000,
+                          "_id":  "690b176f2483cc52422a1e4b"
+                      },
+                      {
+                          "description":  "ECG",
+                          "category":  "Diagnostic Services",
+                          "quantity":  1,
+                          "rate":  800,
+                          "amount":  800,
+                          "_id":  "690b176f2483cc52422a1e4c"
+                      },
+                      {
+                          "description":  "Blood Chemistry",
+                          "category":  "Laboratory Services",
+                          "quantity":  1,
+                          "rate":  1200,
+                          "amount":  1200,
+                          "_id":  "690b176f2483cc52422a1e4d"
+                      },
+                      {
+                          "description":  "ICU",
+                          "category":  "Room \u0026 Board",
+                          "quantity":  1,
+                          "rate":  8000,
+                          "amount":  8000,
+                          "_id":  "690b176f2483cc52422a1e4e"
+                      }
+                  ],
+        "subtotal":  13200,
+        "discount":  0,
+        "discountType":  "none",
+        "discountPercentage":  0,
+        "tax":  0,
+        "total":  13224,
+        "status":  "draft",
+        "issuedDate":  "2025-11-05T09:22:54.937Z",
+        "dueDate":  "2025-11-05T09:22:54.937Z",
+        "generatedBy":  "Billing Department",
+        "generatedAt":  "2025-11-05T09:22:54.937Z",
+        "notes":  "",
+        "__v":  0
+    },
+    {
+        "_id":  "68fdaaaceffaa6cb34cb0ff4",
+        "invoiceNumber":  "INV-1761454764336",
+        "patientId":  "68fdaa71effaa6cb34cb0fcd",
+        "patientName":  "Mark Christopher Galope",
+        "items":  [
+                      {
+                          "description":  "Sample Medicine - Demo",
+                          "category":  "Pharmacy",
+                          "quantity":  1,
+                          "rate":  200,
+                          "amount":  200,
+                          "_id":  "68fdaaaceffaa6cb34cb0ff5"
+                      },
+                      {
+                          "description":  "Blood Test",
+                          "category":  "Diagnostic Services",
+                          "quantity":  1,
+                          "rate":  800,
+                          "amount":  800,
+                          "_id":  "68fdaaaceffaa6cb34cb0ff6"
+                      }
+                  ],
+        "subtotal":  1000,
+        "discount":  0,
+        "discountType":  "none",
+        "discountPercentage":  0,
+        "tax":  0,
+        "total":  1024,
+        "status":  "draft",
+        "issuedDate":  "2025-10-26T04:59:24.336Z",
+        "dueDate":  "2025-10-26T04:59:24.336Z",
+        "generatedBy":  "Billing Department",
+        "generatedAt":  "2025-10-26T04:59:24.336Z",
+        "notes":  "",
+        "__v":  0
+    },
+    {
+        "_id":  "68fda801effaa6cb34cb0f27",
+        "invoiceNumber":  "INV-1761454081557",
+        "patientId":  "68fda3e0c044c2d669b1ebf5",
+        "patientName":  "Juan Santos",
+        "items":  [
+                      {
+                          "description":  "General Consultation",
+                          "category":  "Consultation Services",
+                          "quantity":  1,
+                          "rate":  1500,
+                          "amount":  1500,
+                          "_id":  "68fda801effaa6cb34cb0f28"
+                      },
+                      {
+                          "description":  "Over-the-Counter",
+                          "category":  "Pharmacy",
+                          "quantity":  1,
+                          "rate":  200,
+                          "amount":  200,
+                          "_id":  "68fda801effaa6cb34cb0f29"
+                      }
+                  ],
+        "subtotal":  1700,
+        "discount":  0,
+        "discountType":  "none",
+        "discountPercentage":  0,
+        "tax":  0,
+        "total":  1724,
+        "status":  "draft",
+        "issuedDate":  "2025-10-26T04:48:01.557Z",
+        "dueDate":  "2025-10-26T04:48:01.557Z",
+        "generatedBy":  "Billing Department",
+        "generatedAt":  "2025-10-26T04:48:01.557Z",
+        "notes":  "",
+        "__v":  0
+    }
+]

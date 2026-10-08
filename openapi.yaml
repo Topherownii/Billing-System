@@ -1,0 +1,250 @@
+openapi: 3.0.3
+info:
+  title: Billing-and-Payment-System API
+  version: v1
+  description: Minimal OpenAPI spec for core endpoints (invoices, payments, patients, archive). This is a starter doc for integration.
+servers:
+  - url: http://localhost:5002/api
+paths:
+  /invoices:
+    get:
+      summary: List invoices
+      responses:
+        '200':
+          description: A list of invoices
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Invoice'
+    post:
+      summary: Create an invoice
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/InvoiceCreate'
+      responses:
+        '201':
+          description: Invoice created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  data:
+                    $ref: '#/components/schemas/Invoice'
+  /payments:
+    get:
+      summary: List payments
+      responses:
+        '200':
+          description: A list of payments
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Payment'
+    post:
+      summary: Create a payment
+      description: Use header X-Idempotency-Key to avoid duplicate processing if available.
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/PaymentCreate'
+      responses:
+        '201':
+          description: Payment created
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  data:
+                    $ref: '#/components/schemas/Payment'
+  /patients:
+    get:
+      summary: List patients
+      responses:
+        '200':
+          description: A list of patients
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  success:
+                    type: boolean
+                  data:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/Patient'
+  /archive/invoices/{invoiceId}/archive:
+    post:
+      summary: Archive an invoice
+      parameters:
+        - name: invoiceId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Archived
+  /archive/invoices/{invoiceId}/restore:
+    post:
+      summary: Restore an invoice from archive
+      parameters:
+        - name: invoiceId
+          in: path
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Restored
+components:
+  schemas:
+    InvoiceItem:
+      type: object
+      properties:
+        id:
+          type: string
+        description:
+          type: string
+        quantity:
+          type: number
+        rate:
+          type: number
+        amount:
+          type: number
+        category:
+          type: string
+    Invoice:
+      type: object
+      properties:
+        id:
+          type: string
+        _id:
+          type: string
+        number:
+          type: string
+        patientId:
+          type: string
+        patientName:
+          type: string
+        date:
+          type: string
+        dueDate:
+          type: string
+        status:
+          type: string
+        subtotal:
+          type: number
+        discount:
+          type: number
+        tax:
+          type: number
+        total:
+          type: number
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/InvoiceItem'
+    InvoiceCreate:
+      type: object
+      required:
+        - patientId
+        - items
+      properties:
+        patientId:
+          type: string
+        patientName:
+          type: string
+        items:
+          type: array
+          items:
+            $ref: '#/components/schemas/InvoiceItem'
+        notes:
+          type: string
+    Payment:
+      type: object
+      properties:
+        id:
+          type: string
+        _id:
+          type: string
+        invoiceId:
+          type: string
+        invoiceNumber:
+          type: string
+        patientId:
+          type: string
+        patientName:
+          type: string
+        amount:
+          type: number
+        subtotal:
+          type: number
+        method:
+          type: string
+        status:
+          type: string
+        paymentDate:
+          type: string
+        reference:
+          type: string
+    PaymentCreate:
+      type: object
+      required:
+        - invoiceNumber
+        - amount
+      properties:
+        invoiceId:
+          type: string
+        invoiceNumber:
+          type: string
+        patientId:
+          type: string
+        patientName:
+          type: string
+        amount:
+          type: number
+        method:
+          type: string
+        reference:
+          type: string
+    Patient:
+      type: object
+      properties:
+        id:
+          type: string
+        _id:
+          type: string
+        name:
+          type: string
+        dateOfBirth:
+          type: string
+        sex:
+          type: string
+        contact:
+          type: string
